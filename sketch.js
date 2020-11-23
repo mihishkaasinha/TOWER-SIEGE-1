@@ -90,6 +90,11 @@ function draw() {
   block20.display();
   block21.display();
   block22.display();
+  strokeWeight(2);
+  stroke("white");
+  fill("white");
+  textSize(35);
+  text("Drag the Hexagonal Stone and Release it, to launch it towards the blocks", 100, 50);
 }
 
 function mouseDragged() {
